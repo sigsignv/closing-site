@@ -2,10 +2,11 @@
   "private": true,
   "name": "closing-site",
   "version": "0.1.0",
+  "main": "dist/worker.js",
   "author": "Sigsign <sig@signote.cc>",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --outDir dist/",
     "lint": "eslint src/**/*"
   },
   "devDependencies": {
