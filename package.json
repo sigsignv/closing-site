@@ -3,5 +3,8 @@
   "name": "closing-site",
   "version": "0.1.0",
   "author": "Sigsign <sig@signote.cc>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.19.11"
+  }
 }
